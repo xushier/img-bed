@@ -1,0 +1,159 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      }
+    ],
+    "github": {
+      "_configName": "Github",
+      "repo": "xushier/img-opt",
+      "path": "PicGo/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/xushier/img-opt@main",
+      "branch": "main",
+      "token": "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",
+      "_id": "d3b509bd-5bda-46a3-b922-f7f8bac5d628",
+      "_createdAt": 1678713305147,
+      "_updatedAt": 1678713305147
+    },
+    "local": {
+      "_configName": "Default",
+      "_id": "554cb2c4-d15f-44d9-b4cd-19a1d0611693",
+      "_createdAt": 1691649290677,
+      "_updatedAt": 1691649290677
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": true,
+    "deleteCloudFile": true,
+    "miniWindowOntop": false,
+    "isListeningClipboard": false,
+    "sync": {
+      "type": "github",
+      "username": "xushier",
+      "repo": "img-opt",
+      "branch": "main",
+      "token": "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",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "Github",
+          "repo": "xushier/img-opt",
+          "path": "PicGo/",
+          "customUrl": "https://cdn.jsdelivr.net/gh/xushier/img-opt@main",
+          "branch": "main",
+          "token": "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",
+          "_id": "d3b509bd-5bda-46a3-b922-f7f8bac5d628",
+          "_createdAt": 1678713305147,
+          "_updatedAt": 1678713305147
+        }
+      ],
+      "defaultId": "d3b509bd-5bda-46a3-b922-f7f8bac5d628"
+    },
+    "local": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "554cb2c4-d15f-44d9-b4cd-19a1d0611693",
+          "_createdAt": 1691649290677,
+          "_updatedAt": 1691649290677
+        }
+      ],
+      "defaultId": "554cb2c4-d15f-44d9-b4cd-19a1d0611693"
+    }
+  },
+  "buildIn": {
+    "compress": {
+      "quality": 100,
+      "isConvert": true,
+      "convertFormat": "webp",
+      "isReSize": false,
+      "reSizeWidth": 500,
+      "reSizeHeight": 500,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": true
+    },
+    "watermark": {
+      "isAddWatermark": false,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "southeast"
+    }
+  },
+  "picgoPlugins": {
+    "picgo-plugin-rename-file": true
+  },
+  "picgo-plugin-rename-file": {
+    "_configName": "Github",
+    "format": "{y}/{m}/{origin}-{rand:6}"
+  },
+  "picgo-plugin-rename-image": {
+    "format": "{y}-{m}-{d}/{origin}-{rand:6}",
+    "_configName": "Github"
+  }
+}
